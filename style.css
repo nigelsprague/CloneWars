@@ -1,0 +1,11 @@
+section.splash {
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+
+.horse-logo {
+  font-size: 2000%;
+  object-position: center;
+  object-fit: cover;
+}
