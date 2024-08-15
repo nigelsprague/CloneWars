@@ -9,3 +9,21 @@ section.splash {
   object-position: center;
   object-fit: cover;
 }
+
+img {
+  object-fit: cover;
+  object-position: center;
+  max-width: 100%;
+  max-height: 100%;
+  padding: 3em;
+}
+
+.mainBodyText {
+  padding: 3em;
+}
+
+@media(max-width: 576px) {
+  img {
+    padding: unset;
+  }
+}
